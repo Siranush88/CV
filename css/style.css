@@ -1,0 +1,137 @@
+@import "fonts.css";
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p, 
+header ul.list1,
+section.flex-container span {
+    color: #A9A9A9;
+}
+
+h6.subtitle {
+    color: #A9A9A9; 
+    font-style: italic;
+}
+
+/* Header */
+
+header {
+    border-top: 5px ridge #BEBEBE;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: 'RobotoSlab-Light';
+    font-size: 15px;
+    color: #535353;    
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+header div.flex-container article {
+    width: 37%;
+}
+
+header div.flex-container div.data {
+    width: 40%;
+} 
+
+header div.flex-container figure{
+    width: 23%;
+    margin: 0 auto;
+}
+
+header div.container {
+    border-bottom: 3px solid #BEBEBE;
+    padding: 30px 0 30px 0;
+}
+
+header div.data {
+    padding: 50px 45px 0 0;
+}
+header div.data ul.list2 {
+    text-align: right;
+    padding-left: 0;
+}
+
+header div.data li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+/* sections*/
+
+div.section {
+    border-bottom: 3px solid #BEBEBE;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+div.section h2,
+div.section h3 {
+    margin: 0;
+}
+
+div.section h6 {
+    margin-top: 0;
+   
+}
+
+.section article {
+    border-left: 2px solid #BEBEBE;
+}
+
+.flex-container div.sectionHeading {
+    width: 10%;
+}
+
+.flex-container section {
+    width: 60%; 
+}
+
+.flex-container span {
+    width: 30%; 
+}
+
+.sectionHeading {
+    padding-right: 30px;
+}
+
+.sectionHeading h3 {
+    color: #A9A9A9;
+}
+
+div.section section article {
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+div.section section span {
+    padding-left: 150px;
+}
+
+h2.title {
+    color: #535353;
+}
+
+/* Footer */
+
+footer h6 {
+    text-align: center;
+    color: #A9A9A9;
+}
+
+footer h6 span {
+    color: #535353;
+}
+
